@@ -1,0 +1,81 @@
+.info-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+  /* Adicionando um espaçamento entre os elementos */
+  gap: 10px;
+}
+
+.info-buttons > Button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info > img {
+  width: 100%;
+}
+
+.card {
+  width: 30%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #010409;
+  color: #e6edf3;
+  transition: all 0.3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 10%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #fff;
+  gap: 10px;
+}
+
+.footer > Button {
+  width: 50px;
+  height: 50px;
+  font-size: 0px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #918f9a;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.paragraph {
+  margin-top: 30px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #182130;
+}
